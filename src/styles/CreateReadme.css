@@ -1,0 +1,185 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    position: relative;
+}
+h4{
+    margin: 20px 0px;
+}
+.readme-header h2{
+    margin:0px;
+    cursor: pointer;
+}
+.readme-header a{
+    margin: 0px 10px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.input-container {
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    overflow-y: auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.social-desc {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-desc input {
+    position: relative;
+    margin-left: 10px;
+}
+
+.social-img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+}
+
+.markdown-container {
+    height: 90vh;
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    background-color: #f2f2f2;
+    overflow-y: auto;
+}
+
+.input-title {
+
+    color: black;
+    font-size: medium;
+    margin: 5px 0px;
+}
+
+.section-title {
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.theme-input {
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.badge-select {
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.skill-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-wrapper input {
+    margin-left: 10px;
+}
+
+.skill-button img {
+    margin-left: 5px;
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+}
+
+textarea {
+    width: 99%;
+    height: 90%;
+    margin-top: 10px;
+    background-color: white;
+    color: inherit;
+    overflow: scroll;
+    resize: none;
+
+}
+
+.copy-button {
+    float: right;
+}
+
+.markdown-button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 5px;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+}
+
+.markdown-button:disabled {
+    pointer-events: none;
+}
+
+.markdown-button:hover {
+    color: #fff;
+    border-color: black;
+    background-color: #007DFE;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+}
+.markdown-button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) { 
+    .input-container {
+        width: 95% !important;
+        height: 100%;
+    }
+
+    .markdown-container {
+        width: 90% !important;
+        height: 100%;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .markdown-button {
+        font-size: 10px !important;
+        padding: 0.5em 1.3em !important;
+    }
+    .readme-header a{
+        margin: 0px 5px;
+        color: black;
+        font-weight:500;
+        text-decoration: none;
+    }
+}

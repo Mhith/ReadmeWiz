@@ -16,12 +16,13 @@ const Homepage = () => {
         <div className='home-center'>
             <div className='home-left'>
                 <div className='main-title'>
-                    Creating GitHub profile is now easy
+                    Creating GitHub Profile Readme is now easy
                 </div>
-                <p>Ever thought how you can create those cool readme's you see on different profiles, but didn't know how to do it? You're here at the right place!</p>
-                <p>Hit Create and get started!</p>
+                <p>Ever thought how you can create those cool readme's you see on different profiles, but didn't know how to do it?<br></br> You're here at the right place!</p>
+                <p>Hit Create to get started!</p>
                 <button id="start" onClick={()=>navigate("/create-readme")}>Create Readme</button>
             </div>
+            <img src="Landing.jpg" alt="landing" />
         </div>
     </div>
 

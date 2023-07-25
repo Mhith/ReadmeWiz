@@ -8,7 +8,7 @@ export const themes = {
     },
     default_repocard: {
       title_color: "2f80ed",
-      icon_color: "586069", // icon color is different
+      icon_color: "586069",
       text_color: "434d58",
       bg_color: "fffefe",
     },

@@ -5,7 +5,7 @@ const introductionFields=[
   ]
 const aboutFields = [
     { label: "🌍 I'm based in:", name: "location", placeholder: "India" },
-    { label: "🖥️ See my portfolio at:", name: "portfolio", placeholder: "My Portfolio" },
+    { label: "🖥️ See my portfolio:", name: "portfolio", placeholder: "My Portfolio" },
     { label: "Portfolio link:", name: "portfolioLink", placeholder: "https://myportfolio.com" },
     { label: "🚀 I'm currently working on:", name: "currentlyWorking", placeholder: "E-commerce web-app" },
     { label: "Current project link:", name: "currentlyWorkingLink", placeholder: "https://projectlink.com" },

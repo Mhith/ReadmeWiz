@@ -1,22 +1,26 @@
+/* General Styles */
 .wrapper {
     display: flex;
-    flex-direction: row;
     overflow: hidden;
     position: relative;
 }
-h4{
-    margin: 20px 0px;
+
+h4 {
+    margin: 20px 0;
 }
-.readme-header h2{
-    margin:0px;
+
+.readme-header h2 {
+    margin: 0;
     cursor: pointer;
 }
-.readme-header a{
-    margin: 0px 10px;
+
+.readme-header a {
+    margin: 0 10px;
     color: black;
     font-weight: bold;
     text-decoration: none;
 }
+
 .input-container {
     height: 90vh;
     margin: 20px;
@@ -28,9 +32,8 @@ h4{
 
 .socials {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
 .social-desc {
@@ -47,7 +50,7 @@ h4{
 .social-img {
     width: 20px;
     height: 20px;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .markdown-container {
@@ -60,37 +63,28 @@ h4{
 }
 
 .input-title {
-
     color: black;
     font-size: medium;
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 
 .section-title {
     color: black;
     font-size: x-large;
     font-weight: bold;
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 
-.theme-input {
+.theme-input,
+.badge-select,
+.skill-wrapper input {
     padding: 4px;
-    margin-left: 10px;
-}
-
-.badge-select {
-    padding: 2px;
     margin-left: 10px;
 }
 
 .skill-wrapper {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-}
-
-.skill-wrapper input {
-    margin-left: 10px;
 }
 
 .skill-button img {
@@ -108,7 +102,6 @@ textarea {
     color: inherit;
     overflow: scroll;
     resize: none;
-
 }
 
 .copy-button {
@@ -152,19 +145,21 @@ textarea {
     background-color: #007DFE;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }
+
 .markdown-button:active {
     box-shadow: none;
     transform: translateY(0);
 }
 
-@media (max-width: 768px) { 
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
     .input-container {
-        width: 95% !important;
+        width: 95%;
         height: 100%;
     }
 
     .markdown-container {
-        width: 90% !important;
+        width: 90%;
         height: 100%;
     }
 
@@ -173,13 +168,14 @@ textarea {
     }
 
     .markdown-button {
-        font-size: 10px !important;
-        padding: 0.5em 1.3em !important;
+        font-size: 10px;
+        padding: 0.5em 1.3em;
     }
-    .readme-header a{
-        margin: 0px 5px;
+
+    .readme-header a {
+        margin: 0 5px;
         color: black;
-        font-weight:500;
+        font-weight: 500;
         text-decoration: none;
     }
 }

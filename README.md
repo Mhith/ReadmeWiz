@@ -52,7 +52,7 @@ The application should now be running on **`http://localhost:3000`**.
 5. Head to your GitHub profile and create a new public repository under your username.
 6. In the newly created repository, create a new file named README.md.
 7. Paste the copied README.md content into this newly created README.md file.
-8. Save the changes, and your custom GitHub profile README is now live on your profile!
+8. Save the changes, and your custom GitHub profile README is now live on your profile!!
 
 
 ## 

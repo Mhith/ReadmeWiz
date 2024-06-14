@@ -57,5 +57,5 @@ The application should now be running on **`http://localhost:3000`**.
 
 ## 
 
-Thank you for using READMEWizard! I hope you find it helpful and enjoy customizing your GitHub profile with ease. If you encounter any problems or have suggestions for improvement, don't hesitate to reach out. Happy coding!!
+Thank you for using READMEWizard! I hope you find it helpful and enjoy customizing your GitHub profile with ease. If you encounter any problems or have suggestions for improvement, don't hesitate to reach out. Happy coding!
 

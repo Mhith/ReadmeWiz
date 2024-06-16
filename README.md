@@ -1,5 +1,5 @@
 
-# ReadmeWizard
+# ReadmeWiz
 
 ## Description
 GitHub Profile README Generator is a web application that allows users to create custom GitHub profile README.md files using custom commands. This project is built using Vite React, making it fast, efficient, and easy to use.
